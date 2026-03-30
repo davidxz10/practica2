@@ -4,7 +4,6 @@
 using namespace std;
 
 int main() {
-    // Arrays obligatorios
     float datos[100][3];
     int ids[100];
     float galga[100];
@@ -12,6 +11,7 @@ int main() {
     float fuerza_der[100];
     float fuerza_total[100];
 
+    // Leer archivo y comprobar que existe
     ifstream archivo("datos_pinza.txt");
 
     if (!archivo.is_open()) {
@@ -80,7 +80,7 @@ int main() {
         cout << "Estado muestra " << ids[i] << ": " << estado[i] << endl;
     }
 
-    // Escritura en archivo
+    // Escritura en archivo y comprobar si existe
     ofstream salida("resultado_pinza.txt");
 
     if (!salida.is_open()) {
