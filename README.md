@@ -26,7 +26,7 @@ Este repositorio contiene la segunda practica de la asignatura de Sistemas Opera
 ### Instalacion de las herramientas
 ```bash
 sudo apt update && sudo apt upgrade
-sudo apt install bash python python3-matplotlib libpaho-mqttpp3-1 libpaho-mqtt3as
+sudo apt install bash g++
 ```
 
 ---
