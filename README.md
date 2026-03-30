@@ -55,3 +55,4 @@ Estado muestra 6574: ESTABLE
 * Alumno: David
 
 ## 7. Licencia
+GLP-3.0 license
