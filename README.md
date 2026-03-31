@@ -41,15 +41,25 @@ sudo apt install bash g++
 ## 5. Salida esperada
 Ejecutando ./pinza en segundo plano...
 [INFO] BIN_PID=15407
+
 ID: 5118 Galga: 0.24 Izq: 1.796 Der: 1.752 Total: 3.548
+
 ID: 6574 Galga: 0.22 Izq: 1.595 Der: 1.676 Total: 3.271
 
+
 Media galga: 0.236
+
 Media fuerza izquierda: 1.71876
+
 Media fuerza derecha: 1.72284
+
 Fuerza total media: 3.4416
+
+
 Estado muestra 5118: ESTABLE
+
 Estado muestra 6574: ESTABLE
+
 
 ## 6. Autoría
 * Alumno: David
